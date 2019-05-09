@@ -1,0 +1,37 @@
+.paletteColors{
+    color: #0f7367;
+    color: #80230f;
+    color: #060400;;
+    color: #f4c57c;
+} 
+
+.test1{
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    background-color: #0f7367;
+  }
+  .test2{
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    background-color: #80230f;
+  }
+  .test3{
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    background-color: #060400;
+  }
+  .test4{
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    background-color: #f4c57c;
+  }
+  .test5{
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    background-color: #e7e1d7;
+  }
