@@ -20,8 +20,6 @@ h1, p{
 	margin: 0;
 	width: 20%;
 	height: 40vh;
-	background-color: blue;
-	padding: 10px;
 	text-align: center;
 }
 .flip_card_sub_container{
@@ -43,6 +41,10 @@ h1, p{
 	backface-visibility: hidden;
 }
 .flip_card_front {
+	border: 1px solid #0f7367;;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 	background-color: #bbb;
 	color: black;
 	z-index: 2;
@@ -94,7 +96,6 @@ h1, p{
 	padding: 0%;
 	margin: 0%;
 	width: 100%;
-	background: red;
 }
 
 .card_title {
@@ -115,4 +116,17 @@ h1, p{
 	color: #e7e1d7;
 	font-size: 1em;
 	font-style: italic;
+	padding: 15px;
+}
+.card_section_header{
+	height: 50px;
+	background-color: #e7e1d7;
+}
+.main_section_header{
+	display: flex;
+	height: 70px;
+	justify-content: center;
+	align-items: center;
+	font-size: 3em;
+	color: #80230f;
 }
