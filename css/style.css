@@ -1,17 +1,26 @@
 *{
 	margin: 0;
-
+	padding: 0;
 }
 *, body, input, textarea, select, div {
 	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+h1, p{
+	margin: 0;
 }
 .main_container {
 	position: fixed;
+	height: 100vh;
+	background: url('media/landscape.jpg');
+	background-size: cover;
 }
 
 .flip_card_container {
 	margin: 0;
 	width: 20%;
+	height: 40vh;
+	background-color: blue;
 	padding: 10px;
 	text-align: center;
 }
@@ -37,6 +46,8 @@
 	background-color: #bbb;
 	color: black;
 	z-index: 2;
+	background-image:url('https://i.postimg.cc/rscZ5tYw/batman2.jpg');
+	background-size: cover; 
 }
 .flip_card_back {
 	background-color: rgb(226, 87, 6);
@@ -53,7 +64,6 @@
 }
 
 .main_section_subContainer{
-	margin-top: 5%;
 	padding: 10%;
 }
 
@@ -61,9 +71,6 @@
 	text-align: center;
 	font-size: 40pt;
 	color: white;
-	letter-spacing: 8px;
-	margin-bottom: 30px;
-
 }
 
 .main_section_paragraph{
@@ -71,13 +78,6 @@
 	font-size: 8pt;
 	color: white;
 	letter-spacing: 2px;
-}
-
-.main_section_container {
-	height: 800px;
-	background: url('media/landscape.jpg');
-	background-size: cover;
-	/*   overflow: hidden; */
 }
 
 .card_section_container {
@@ -94,7 +94,6 @@
 	padding: 0%;
 	margin: 0%;
 	width: 100%;
-	/* height: 1240px; */
 	background: red;
 }
 
@@ -103,8 +102,17 @@
 	font-weight: bold;
 }
 
-.card_img {
-	opacity: 0.7;
-	width: 10px;
-	height: 10px;
+.flip_card_sub_container img{
+	width: 100%;
+	height: 30px;
+}
+.card_front_title{
+	color: #e7e1d7;
+	font-size: 2em;
+	font-weight: bold;
+}
+.card_front_paragraph{
+	color: #e7e1d7;
+	font-size: 1em;
+	font-style: italic;
 }
