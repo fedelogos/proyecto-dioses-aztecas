@@ -77,11 +77,11 @@ aztec_gods.forEach(function (god) {
 
 	cardBackTitle = document.createElement("div");
 	cardBackTitle.classList.add("card_back_description");
-	cardBack.appendChild(cardBackTitle);
+	
 
 	txt = document.createTextNode(god.description);
-	cardBack.appendChild(txt);
-
+	cardBackTitle.appendChild(txt);
+	cardBack.appendChild(cardBackTitle);
 
 	// CARD_BACK_NED
 
