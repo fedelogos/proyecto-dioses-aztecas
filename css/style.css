@@ -71,6 +71,7 @@ h1, p{
 
 .main_section_subContainer{
 	padding: 10%;
+	transition: 1s;
 }
 
 .main_section_title{
@@ -117,3 +118,22 @@ h1, p{
 	font-weight: bold;
 }
 
+
+.card_front_paragraph{
+	color: #e7e1d7;
+	font-size: 1em;
+	font-style: italic;
+	padding: 15px;
+}
+.card_section_header{
+	height: 50px;
+	background-color: #e7e1d7;
+}
+.main_section_header{
+	display: flex;
+	height: 70px;
+	justify-content: center;
+	align-items: center;
+	font-size: 3em;
+	color: #80230f;
+}
