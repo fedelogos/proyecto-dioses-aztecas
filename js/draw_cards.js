@@ -39,6 +39,7 @@ aztec_gods.forEach(function (god) {
 	// CARD_FRONT
 	cardFront = document.createElement("div");
 	cardFront.classList.add("flip_card_front");
+	cardFront.style = "background-image:url('media/" + god.pictureLink1 + "');";
 	card.appendChild(cardFront);
 
 

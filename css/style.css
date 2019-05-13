@@ -12,7 +12,7 @@ h1, p{
 .main_container {
 	position: fixed;
 	height: 100vh;
-	background: url('media/landscape.jpg');
+	background: url('../media/calendario4.jpg');
 	background-size: cover;
 }
 
@@ -45,7 +45,6 @@ h1, p{
 	backface-visibility: hidden;
 }
 .flip_card_front {
-	border: 1px solid #0f7367;;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -65,7 +64,8 @@ h1, p{
 .main_section_header{
 	position: fixed;
 	height: 35px;
-	background: white;
+	background: #191919;
+	color: #f49a7c;
 	width: 100%;
 }
 
@@ -128,6 +128,8 @@ h1, p{
 .card_section_header{
 	height: 50px;
 	background-color: #e7e1d7;
+	border: 0px solid rgb(39,135,137);
+	border-bottom: 0;
 }
 .main_section_header{
 	display: flex;
@@ -135,5 +137,5 @@ h1, p{
 	justify-content: center;
 	align-items: center;
 	font-size: 3em;
-	color: #80230f;
+	color: 	#f49a7c;
 }
