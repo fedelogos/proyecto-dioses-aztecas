@@ -17,7 +17,7 @@ h1, p{
 }
 
 .logo {
-	 z-index: +3; 
+	 z-index: 0; 
 }
 
 .flip_card_container {
@@ -25,6 +25,7 @@ h1, p{
 	width: 20%;
 	height: 40vh;
 	text-align: center;
+	transition: transform .40s; /* Animation */
 }
 .flip_card_sub_container{
 	position: relative;
@@ -51,11 +52,10 @@ h1, p{
 	background-color: #bbb;
 	color: black;
 	z-index: 2;
-	background-image:url('https://i.postimg.cc/rscZ5tYw/batman2.jpg');
 	background-size: cover; 
 }
 .flip_card_back {
-	background-color: rgb(226, 87, 6);
+	/*background-color: rgb(226, 87, 6);*/
 	color: white;
 	transform: rotateY(180deg);
 	z-index: +3;
@@ -67,6 +67,14 @@ h1, p{
 	background: #191919;
 	color: #f49a7c;
 	width: 100%;
+	display: flex;
+	height: 70px;
+	justify-content: right;
+	font-weight: bold;
+	padding: 0.5em;
+	align-items: center;
+	font-size: 3em;
+	color: 	#f49a7c;
 }
 
 .main_section_subContainer{
@@ -75,14 +83,16 @@ h1, p{
 }
 
 .main_section_title{
+	background-color: rgba(0,0,0,0.6);
 	text-align: center;
 	font-size: 40pt;
 	color: white;
 }
 
 .main_section_paragraph{
+	background-color: rgba(0,0,0,0.5);
 	text-align: center;
-	font-size: 8pt;
+	font-size: 20px;
 	color: white;
 	letter-spacing: 2px;
 }
@@ -116,6 +126,7 @@ h1, p{
 .card_front_title{
 	color: #e7e1d7;
 	font-size: 2em;
+	background-color: rgba(0,0,0,0.6);
 	font-weight: bold;
 }
 
@@ -123,6 +134,7 @@ h1, p{
 .card_front_paragraph{
 	color: #e7e1d7;
 	font-size: 1em;
+	background-color: rgba(0,0,0,0.4);
 	font-style: italic;
 	padding: 15px;
 }
@@ -133,10 +145,18 @@ h1, p{
 	border-bottom: 0;
 }
 .main_section_header{
-	display: flex;
-	height: 70px;
-	justify-content: center;
-	align-items: center;
-	font-size: 3em;
-	color: 	#f49a7c;
+	
+}
+.card_back_title {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.card_back_description {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.flip_card_container:hover{
+    z-index: 3;
+    transform: scale(1.2);
+    overflow-x: scroll;
 }
