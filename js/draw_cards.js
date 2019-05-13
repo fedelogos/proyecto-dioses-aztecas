@@ -63,6 +63,8 @@ aztec_gods.forEach(function (god) {
 
 	cardBack = document.createElement("div");
 	cardBack.classList.add("flip_card_back");
+	cardBack.style = "background-image:url('media/" + god.pictureLink2 + "');";
+
 	card.appendChild(cardBack);
 
 	cardBackTitle = document.createElement("div");

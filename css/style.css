@@ -17,7 +17,7 @@ h1, p{
 }
 
 .logo {
-	/* z-index: +3; */
+	 z-index: +3; 
 }
 
 .flip_card_container {
@@ -88,6 +88,7 @@ h1, p{
 }
 
 .card_section_container {
+	background: rgba(0, 0, 0, 0.5);
 	margin-top: 100vh;
 	position: absolute;
 	top: 0;

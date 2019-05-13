@@ -139,7 +139,7 @@ aztec_gods.push({
 	"alias": "La señora que mora en la casa o monstruo del bosque",
 	"description": "En la mitología mexica, Chantico (en náhuatl: chantico, ‘[la que mora] en la casa’‘chantli, hogar, morada; ti, ligadura eufónica, co, en’)?, también llamada Cuauhxólotl (en nahuatl: cuauhxōlotl, ‘«monstruo del bosque» o «animal del bosque»’‘cuauhtlah, bosque, floresta; xolotl, animal o monstruo’)? es la consorte de Xiuhtecutli, dios del fuego. Era la diosa de los fuegos del corazón, los fuegos del hogar, los volcanes y los fuegos de la estufa, y la responsable de la maduración de las niñas enanas. Es representada con el rostro en negro y rojo y sus símbolos eran una serpiente roja y púas del cactus. Al igual que Cihuacóatl-Tonan, era asociada al calor y a la luz brillante. En las representaciones, figuraba con un manojo de rayos en su espalda. Era adorada en la cumbre del Tepeyac, durante el primer día de la cuarta trecena (1 flor), exactamente el 23 de marzo. ",
 	"pictureLink1": "Chantico1.jpg",
-	"pictureLink2": "Chantico2.jpg"
+	"pictureLink2": "Chantico2.png"
 });
 // aztec_gods.push({
 // 	"name": "Chicomecóatl",
