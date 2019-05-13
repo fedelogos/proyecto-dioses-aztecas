@@ -9,6 +9,10 @@
 	position: fixed;
 }
 
+.logo {
+	/* z-index: +3; */
+}
+
 .flip_card_container {
 	margin: 0;
 	width: 20%;
@@ -42,7 +46,7 @@
 	background-color: rgb(226, 87, 6);
 	color: white;
 	transform: rotateY(180deg);
-	z-index: 1;
+	z-index: +3;
 }
 
 .main_section_header{
@@ -108,3 +112,4 @@
 	width: 10px;
 	height: 10px;
 }
+
