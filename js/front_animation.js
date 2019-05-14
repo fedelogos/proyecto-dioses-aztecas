@@ -14,20 +14,20 @@ var currentBackground =0;
 function changeBackground() {
 
 	if (currentBackground == 4) currentBackground = 0;
-    currentBackground++;
+	currentBackground++;
 
-    $('.main_container').fadeOut(1500,function() {
-        $('.main_container').css({
-            'background-image' : "url(./media/calendario" + currentBackground + ".jpg)"
-        });
-        $('.main_container').fadeIn(1500);
-    });
+	$('.main_container').fadeOut(1500,function() {
+		$('.main_container').css({
+			'background-image' : "url(./media/calendario" + currentBackground + ".jpg)"
+		});
+		$('.main_container').fadeIn(1500);
+	});
 
 
-    setTimeout(changeBackground, 5000);
+	setTimeout(changeBackground, 5000);
 }
 $(document).ready(function() {
 
-    setTimeout(changeBackground(1), 5000);  
+	setTimeout(changeBackground(1), 5000);  
 
 }); 

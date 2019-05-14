@@ -27,7 +27,7 @@ h1, p{
 	background: rgba(0, 0, 0, 0.9); 
 }
 .main_container {
-	transition: background 1s linear;
+	transition: background 0.5s ease;
 	position: fixed;
 	height: 100vh;
 	background: url('../media/calendario2.jpg');
@@ -38,6 +38,7 @@ h1, p{
 .logo {
 	z-index: +3;
 	pointer-events: none;
+	/*position: absolute;*/
 }
 
 .flip_card_container {
