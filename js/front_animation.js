@@ -10,7 +10,24 @@ $(document).ready(function () {
 	});
 });
 
+var currentBackground =0;
+function changeBackground() {
 
-function changeBg(img_id) {
-	document.querySelector("#main_container").style.backgroundImage = "url(b.jpg)";
+	if (currentBackground == 4) currentBackground = 0;
+    currentBackground++;
+
+    $('.main_container').fadeOut(1500,function() {
+        $('.main_container').css({
+            'background-image' : "url(./media/calendario" + currentBackground + ".jpg)"
+        });
+        $('.main_container').fadeIn(1500);
+    });
+
+
+    setTimeout(changeBackground, 5000);
 }
+$(document).ready(function() {
+
+    setTimeout(changeBackground(1), 5000);  
+
+}); 

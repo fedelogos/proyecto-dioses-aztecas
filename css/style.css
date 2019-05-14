@@ -100,12 +100,14 @@ h1, p{
 	align-items: center;
 	font-size: 3em;
 	color: 	#f49a7c;
+	z-index: +2;
+	transition-delay: 0s;
 }
 
 .main_section_subContainer{
 	padding: 10%;
-
-	transition: 1s;
+	z-index: +3;
+	transition: 0.5s;
 }
 
 .main_section_title{
