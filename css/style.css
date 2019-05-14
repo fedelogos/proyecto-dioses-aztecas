@@ -27,6 +27,7 @@ h1, p{
 	background: rgba(0, 0, 0, 0.9); 
 }
 .main_container {
+	transition: background 1s linear;
 	position: fixed;
 	height: 100vh;
 	background: url('../media/calendario2.jpg');

@@ -9,3 +9,8 @@ $(document).ready(function () {
 		}
 	});
 });
+
+
+function changeBg(img_id) {
+	document.querySelector("#main_container").style.backgroundImage = "url(b.jpg)";
+}
