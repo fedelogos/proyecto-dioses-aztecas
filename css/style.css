@@ -27,6 +27,7 @@ h1, p{
 	background: rgba(0, 0, 0, 0.9); 
 }
 .main_container {
+	transition: background 0.5s ease;
 	position: fixed;
 	height: 100%;
 	width: 100%;
@@ -39,6 +40,7 @@ h1, p{
 .logo {
 	z-index: +3;
 	pointer-events: none;
+	/*position: absolute;*/
 }
 
 .flip_card_container {
@@ -102,12 +104,14 @@ h1, p{
 	align-items: center;
 	font-size: 3em;
 	color: 	#f49a7c;
+	z-index: +2;
+	transition-delay: 0s;
 }
 
 .main_section_subContainer{
 	padding: 10%;
-
-	transition: 1s;
+	z-index: +3;
+	transition: 0.5s;
 }
 
 .main_section_title{
