@@ -16,11 +16,11 @@ function changeBackground() {
 	if (currentBackground == 4) currentBackground = 0;
 	currentBackground++;
 
-	$('.main_container').fadeOut(1500,function() {
+	$('.main_container').fadeOut(500,function() {
 		$('.main_container').css({
 			'background-image' : "url(./media/calendario" + currentBackground + ".jpg)"
 		});
-		$('.main_container').fadeIn(1500);
+		$('.main_container').fadeIn(500);
 	});
 
 
