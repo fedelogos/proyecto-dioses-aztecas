@@ -28,9 +28,11 @@ h1, p{
 }
 .main_container {
 	position: fixed;
-	height: 100vh;
+	height: 100%;
+	width: 100%;
 	background: url('../media/calendario2.jpg');
 	background-size: cover;
+	background-repeat: no-repeat;
 
 }
 
@@ -76,15 +78,16 @@ h1, p{
 	background-size: cover; 
 }
 .flip_card_back {
-	/*background-color: rgb(226, 87, 6);*/
-
+		
 	color: white;
 	transform: rotateY(180deg);
 	z-index: +3;
 }
+
 .flip_card_back div{
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.6);
 }
+
 .main_section_header{
 	position: fixed;
 	height: 35px;
@@ -128,7 +131,8 @@ h1, p{
 	margin-top: 100vh;
 	position: absolute;
 	top: 0;
-	width: 100vw;
+	width: 100%;
+	
 	z-index: 2;
 }
 
@@ -148,6 +152,10 @@ h1, p{
 .flip_card_sub_container img{
 	width: 100%;
 	height: 30px;
+}
+
+.flip_card_back img{
+	background-size: 100%;
 }
 .card_front_title{
 	color: #e7e1d7;
@@ -176,25 +184,31 @@ h2{
 	font-size: 25pt;
 	color:white;
 }
-.main_section_header{
 
-}
 .card_back_title {
+	
 	font-size: 1.8em;
 	font-weight: bold;
-
+	
+	
 }
 .card_back_description {
-	background-color: rgba(0,0,0,0.5);
-	padding: 15px;
+
+	
+	height: 88%;
+	font-size: 8pt;
+	padding: 10px;
 
 }
 
 .flip_card_container:hover{
 	z-index: 3;
-	transform: scale(1.2);
-	overflow-x: scroll;
+	transform: scale(1.26);
+	overflow-y: scroll;
+		
+	
 }
+
 
 
 /* Fading animation */
